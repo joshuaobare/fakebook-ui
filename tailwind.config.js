@@ -11,5 +11,9 @@ export default {
     extend: {},
   },
   plugins: [],
+  purge: [
+    "./src/components/**/*.{js,jsx}",
+    "./index.html",
+  ],
 }
 

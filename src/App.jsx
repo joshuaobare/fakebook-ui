@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import "./App.css";
+import "./output.css"
 import SignUp from "./components/SignUp";
 import Login from "./components/Login";
 import HomePage from "./components/HomePage";

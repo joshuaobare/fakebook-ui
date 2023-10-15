@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import locationlogo from "../assets/locationlogo.png";
 import worklogo from "../assets/worklogo.png";
+import blackbg from "../assets/blackbg.png";
 import rellogo from "../assets/rellogo.png";
 import clocklogo from "../assets/clock.png";
 import { useEffect, useState } from "react";
@@ -179,7 +180,7 @@ const Profile = (props) => {
           <div className="profile-header-cont">
             <div className="profile-header">
               <img
-                src={profile.avatar}
+                src={profile.avatar || blackbg}
                 alt="Profile Picture"
                 className="profile-pic"
               />

@@ -177,8 +177,15 @@ const FullPost = (props) => {
     }
   };
 
+  const dialogWidth = {   
+    '@media (min-width: 600px)' : {
+      width: '1000vw'
+    }
+  }
+  
+
   return (
-      <Dialog open={props.postDialogOpen}>
+      <Dialog open={props.postDialogOpen} containerstyle = {dialogWidth}>
         <div className="full-post">
           <div className="full-post-header">
             <div className="full-post-header-title">

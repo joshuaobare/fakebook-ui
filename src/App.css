@@ -320,6 +320,7 @@
 }
 .full-post {
   height: 84vh;
+  width: 100%;
 }
 .full-post-cont {
   height: 100vh;
@@ -380,6 +381,7 @@
 .full-post-comment-input {
   width: 100%;
   padding: 5px;
+  background-color: #fff;
 }
 .full-post-comment-input:focus {
   outline: none;

@@ -595,6 +595,7 @@ background-color: rgba(0, 0, 0, 0.1);
   width: 330px;
   padding: 14px 16px;
   border: 1px solid #dddfe2;
+  background-color: #fff;
 }
 .login-signup-btn,
 .signup-btn {
@@ -722,6 +723,9 @@ background-color: rgba(0, 0, 0, 0.1);
   border-radius: 100%;
 }
 
+.guest-login-btn {
+  background-color: #f9f9f9;
+}
 .edit-profile-label {
   text-align: left;
 }

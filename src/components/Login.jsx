@@ -95,7 +95,7 @@ const Login = (props) => {
           <div>
             <button className="login-btn" type="submit">Log In</button>
           </div>
-          <button onClick={guestLogin}>Guest Login</button>
+          <button className="guest-login-button" onClick={guestLogin}>Guest Login</button>
           <div>{loginError ? "Invalid credentials, try again" : ""}</div>
           <Link to='signup'>
             <button className="login-signup-btn">Create Account</button>
